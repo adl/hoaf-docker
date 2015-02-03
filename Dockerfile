@@ -2,7 +2,7 @@ FROM debian:sid
 MAINTAINER Alexandre Duret-Lutz <adl@lrde.epita.fr>
 RUN apt-get update && \
     RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    wget \
+    wget vim-nox emacs-nox \
     openjdk-8-jre-headless \
     gcc-4.9 \
     g++-4.9 \
