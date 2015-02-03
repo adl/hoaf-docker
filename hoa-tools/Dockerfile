@@ -19,5 +19,5 @@ RUN cd /tmp && ./install.sh && rm -f install.sh
 
 RUN mkdir -p /home/user && groupadd -r user && useradd -r -g user user && chown user:user /home/user
 WORKDIR /home/user
-COPY README README
+COPY README /home/user/README
 USER user
