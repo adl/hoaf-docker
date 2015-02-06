@@ -14,7 +14,7 @@ cd ..
 rm -rf ltl2ba-$V ltl2ba-$V.tar.gz
 
 # LTL3BA
-V=1.1.1
+V=1.1.2
 wget http://sourceforge.net/projects/ltl3ba/files/ltl3ba/1.1/ltl3ba-$V.tar.gz
 tar xvf ltl3ba-$V.tar.gz
 cd ltl3ba-$V
