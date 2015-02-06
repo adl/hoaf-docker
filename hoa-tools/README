@@ -1,5 +1,6 @@
 This installation contains the following tools ready to use:
 
+- jhoafparser version 1.0 (LGPL v2.1)
 - ltl2ba version 1.2b1 (GPL v2)
 - ltl2dstar version 0.5.2 (GPL v2)
 - ltl3ba version 1.1.2 (GPL v2)

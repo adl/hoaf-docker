@@ -52,3 +52,9 @@ tar xvf ltl2dstar-$V.tar.gz
 cd ltl2dstar-$V/src
 make -j4
 mv ltl2dstar /usr/local/bin/
+
+# jhoafparser
+V=1.0
+wget http://ltl2dstar.de/jhoafparser/down/jhoafparser-$V.jar \
+       -O /usr/local/bin/jhoafparser-$V.jar
+chmod a+x /usr/local/bin/jhoafparser-$V.jar
