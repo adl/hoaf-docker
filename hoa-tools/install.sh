@@ -38,7 +38,7 @@ V=1.99a
 wget http://www.lrde.epita.fr/~adl/dl/spot-$V.tar.gz
 tar xvf spot-$V.tar.gz
 cd spot-$V
-./configure --disable-devel --enable-optimizations --disable-python
+./configure --disable-static --disable-devel --enable-optimizations --disable-python
 make -j4
 make install-strip
 cd ..
