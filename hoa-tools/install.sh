@@ -44,3 +44,11 @@ make install-strip
 cd ..
 rm -rf spot-$V spot-$V.tar.gz
 ldconfig
+
+# ltl2dstar
+V=0.5.2
+wget http://www.ltl2dstar.de/down/ltl2dstar-0.5.2.tar.gz
+tar xvf ltl2dstar-$V.tar.gz
+cd ltl2dstar-$V/src
+make -j4
+mv ltl2dstar /usr/local/bin/
